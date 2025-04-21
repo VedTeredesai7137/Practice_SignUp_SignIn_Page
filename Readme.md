@@ -13,6 +13,32 @@ A simple full-stack user authentication project using the **MERN stack** (MongoD
 
 ## ✅ RUNNING THE FULL STACK PROJECT
 
+🔧 Install Dependencies for MERN Project
+
+Step 1
+
+cd Client
+
+npm install
+
+npm install bootstrap axios react-router-dom
+
+
+
+Step 2
+
+cd ..
+
+cd Server
+
+npm init -y
+
+npm install express mongoose cors nodemon
+
+npm install dotenv
+
+
+
 Open two terminals:
 
 Terminal 1: Backend  
@@ -27,7 +53,7 @@ npm run dev
 
 
 
-For Learners Here are steps to initialise frontend ,backend and Database
+# For Learners Here are steps to initialise frontend ,backend and Database
 
 # ✅ MERN Stack Registration/Login App Setup
 
@@ -118,14 +144,3 @@ mongoose.connect("mongodb+srv://vedteredesai:r8hG3Khy6CWy6JS3@cluster1.npsxphx.m
 
 ---
 
-## ✅ RUNNING THE FULL STACK PROJECT
-
-Open two terminals:
-
-Terminal 1: Backend  
-cd Server  
-npm start
-
-Terminal 2: Frontend  
-cd Client  
-npm run dev
