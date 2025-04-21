@@ -1,0 +1,71 @@
+# ============================
+#  MERN STACK GITIGNORE FILE
+# ============================
+
+# ---> Node (Client & Server)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+.env
+
+# ---> Build Output
+dist/
+build/
+
+# ---> Logs
+logs
+*.log
+*.log.*
+log/
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ---> OS-specific
+.DS_Store
+Thumbs.db
+
+# ---> VSCode/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---> Environment Variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ---> MongoDB dump/restore data
+dump/
+*.archive
+
+# ---> Coverage reports
+coverage/
+
+# ---> Misc
+*.tgz
+*.bak
+*.tmp
+.temp/
+
+# ---> macOS Finder files
+.AppleDouble
+.LSOverride
+
+# ---> Windows file metadata
+ehthumbs.db
+desktop.ini
+
+# ---> React/Vite Specific
+*.env.*
+*.eslintcache
+
+# ---> Optional: Ignore server logs if created
+Server/*.log
+Client/*.log
