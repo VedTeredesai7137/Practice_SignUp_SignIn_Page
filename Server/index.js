@@ -22,7 +22,7 @@ app.use(express.json()) parses JSON body from HTTP requests (like in login/regis
 
 
 
-mongoose.connect("mongodb+srv://vedteredesai:r8hG3Khy6CWy6JS3@cluster1.npsxphx.mongodb.net/employee?retryWrites=true&w=majority&appName=Cluster1")
+mongoose.connect("")
 .then(() => console.log("MongoDB Atlas Connected Successfully"))
 .catch((err) => console.error("MongoDB Connection Error:", err));
 
